@@ -20,8 +20,3 @@ de espécies de pinguins, aplicando técnicas estatísticas como bootstrapping.
 - Intervalos de confiança estimados
 - Comparação entre espécies
 - Insights estatísticos relevantes
-
-## ▶️ Como executar
-```bash
-pip install -r requirements.txt
-jupyter notebook
