@@ -1,22 +1,24 @@
-# 📊 Análise Estatística dos Penguins
+Penguin Analytics & Bootstrapping 🐧
 
-## 📌 Sobre o projeto
-Projeto de análise de dados utilizando Python para explorar características
-de espécies de pinguins, aplicando técnicas estatísticas como bootstrapping.
+Este repositório contém uma análise estatística focada no dataset Palmer Penguins. O objetivo principal foi ir além da estatística descritiva comum, utilizando Bootstrapping para calcular intervalos de confiança e validar a consistência das métricas entre diferentes espécies.
 
-## 🧠 Técnicas utilizadas
-- Análise exploratória de dados (EDA)
-- Bootstrapping
-- Estatística descritiva
-- Visualização de dados
+🚀 O que este projeto faz?
+A análise explora as dimensões físicas dos pinguins (massa corporal, comprimento de nadadeira e bico) para entender as variações biológicas entre as espécies Adelie, Chinstrap e Gentoo.
 
-## 🛠️ Tecnologias
-- Python
-- Pandas
-- NumPy
-- Matplotlib / Seaborn
+EDA Completa: Identificação de outliers e padrões de distribuição.
 
-## 📈 Resultados
-- Intervalos de confiança estimados
-- Comparação entre espécies
-- Insights estatísticos relevantes
+Inferência Estatística: Uso de reamostragem (Bootstrapping) para estimar a incerteza das médias.
+
+Visualização Avançada: Gráficos que comparam não apenas os dados brutos, mas a confiança estatística dos resultados.
+
+🛠️ Stack Técnica
+Linguagem: Python 3.x
+
+Manipulação: Pandas e NumPy
+
+📈 Destaques da Análise
+Em vez de apenas observar as médias, o projeto foca em:
+
+Estabilidade dos Dados: Quão confiáveis são as médias de massa corporal por espécie?
+
+Intervalos de Confiança: Aplicação prática de métodos não-paramétricos para validar as hipóteses.
